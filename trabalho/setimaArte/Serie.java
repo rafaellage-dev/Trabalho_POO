@@ -13,4 +13,9 @@ public class Serie extends SetimaArte{
         this.episodios = episodios;
         this.data_final = data_final;     
     }
+    @ Override
+    public void mostrarInfo(){
+        super.mostrarInfo();
+        System.out.println("Número de temporadas: "+temporadas+"\nNúmero de episodios: "+episodios+"\nData de término: "+data_final);
+    }
 }
