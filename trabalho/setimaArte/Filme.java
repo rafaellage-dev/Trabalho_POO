@@ -15,4 +15,9 @@ public class Filme extends SetimaArte{
        this.roteiristas = roteiristas;
        this.duracao = duracao;
     }
+    @ Override
+    public void mostrarInfo(){
+        super.mostrarInfo();
+        System.out.println("Diretor(es): "+diretor+"\nProdutora: "+produtora+"\nRoteirista(s): "+roteiristas+"\nDuração do filme: "+duracao);
+    }
 }
